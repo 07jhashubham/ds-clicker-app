@@ -38,7 +38,7 @@ export default function Merging({ boxes, setBoxes }) {
           .concat({ level: newLevel, index: dropIndex })
       );
     }
-    setDraggingBox(nujjjrll); // Rest dragging box
+    setDraggingBox(null); // Reset dragging box
   };
 
   const handleTouchMove = (e) => {
